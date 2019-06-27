@@ -1,0 +1,13 @@
+.header-back{
+	background-image: url(img/header_img.jpg);
+	height: auto;
+	padding:8rem 0;
+	height: 400px;
+}
+
+.header-title{
+	color: #111;
+	font-size: 60px;
+	text-align: center;
+/*	padding:8rem auto;*/
+}
