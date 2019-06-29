@@ -1,6 +1,5 @@
 .header-back{
 	background-image: url(img/header_img.jpg);
-	height: auto;
 	padding:8rem 0;
 	height: 400px;
 	margin-bottom:10px;
@@ -10,13 +9,24 @@
 	color: #111;
 	font-size: 60px;
 	text-align: center;
-/*	padding:8rem auto;*/
 }
 
 .title{
 	font-size: 60px;
 	margin:30px 0;
 	width:200px;
+}
+
+.image-style{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.image-style img{
+	border-radius:50%;
+	width:70%;
+	height:58%;
+	padding:auto;
 }
 
 .introduction-block{
