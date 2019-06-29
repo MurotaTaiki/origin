@@ -1,3 +1,4 @@
+/*header*/
 .header-back{
 	background-image: url(img/header_img.jpg);
 	padding:8rem 0;
@@ -11,12 +12,14 @@
 	text-align: center;
 }
 
+/*共通部分*/
 .title{
 	font-size: 60px;
 	margin:30px 0;
 	width:200px;
 }
 
+/*profile*/
 .image-style{
 	text-align: center;
 	margin-top: 20px;
@@ -24,8 +27,8 @@
 
 .image-style img{
 	border-radius:50%;
-	width:70%;
-	height:58%;
+	width:78%;
+	height:65%;
 	padding:auto;
 }
 
@@ -40,4 +43,18 @@
 
 .introduction-block ul li table{
 	font-size: 15px;
+}
+
+/*works*/
+.card-item{
+	width:100%;
+	height:auto;
+}
+
+/*skill*/
+
+
+/*feature*/
+.feature-detail{
+	font-size: 30px
 }
