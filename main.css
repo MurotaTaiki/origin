@@ -27,9 +27,10 @@
 
 .image-style img{
 	border-radius:50%;
-	width:78%;
-	height:65%;
-	padding:auto;
+	width:70%;
+	height:auto;
+	margin-bottom: 20px;
+
 }
 
 .introduction-block{
