@@ -18,6 +18,7 @@
 
 	<!-- Content -->
 	<div class="container">
+		<!-- プロフィール -->
 		<div class ="row">
 			<div class="mx-auto title">
 			    <h1>PROFILE</h1>
@@ -63,6 +64,7 @@
 				</ul>
 			</div>
 		</div>
+		<!-- スキル -->
 		<div class ="row">
 			<div class="mx-auto title">
 			    <h1>SKILLS</h1>
@@ -81,41 +83,41 @@
 	            	<tr>
 	            		<td rowspan="2">バックエンド</td>
 	            		<td>Java</td>
-	            		<td>☆☆☆☆☆</td>
+	            		<td>★★★★</td>
 	            	</tr>
 	                <tr>
-	            		<td>Spring</td>
-	            		<td>☆☆☆☆☆</td>
+	            		<td>Spring(FW)</td>
+	            		<td>★★★</td>
 	            	</tr>
 	            	<tr>
 	            		<td rowspan="5">フロントエンド</td>
 	            		<td>HTML5</td>
-	            		<td>☆☆☆☆☆</td>
+	            		<td>★★★★★</td>
 	            	</tr>
 	            	<tr>
 	            		<td>CSS3</td>
-	            		<td>☆☆☆☆☆</td>
+	            		<td>★★★</td>
 	            	</tr>
 	            	<tr>
-	            		<td>Bootstrap4</td>
-	            		<td>☆☆☆☆☆</td>
+	            		<td>Bootstrap4(FW)</td>
+	            		<td>★★★★</td>
 	            	</tr>
 	            	<tr>
 	            		<td>javascript</td>
-	            		<td>☆☆☆☆☆</td>
+	            		<td>★★</td>
 	            	</tr>
 	            	<tr>
-	            		<td>jQuery</td>
-	            		<td>☆☆☆☆☆</td>
+	            		<td>jQuery(FW)</td>
+	            		<td>★★</td>
 	            	</tr>
 	            	<tr>
 	            		<td rowspan="2">その他</td>
 	            		<td>MySQL</td>
-	            		<td>☆☆☆☆☆</td>
+	            		<td>★★</td>
 	            	</tr>
 	            	<tr>
 	            		<td>git</td>
-	            		<td>☆☆☆☆☆</td>
+	            		<td>★★</td>
 	            	</tr>
 	            	<tr>
 	            		<td>資格</td>
@@ -124,28 +126,69 @@
 	            </tbody>
             </table>
 		</div>
+		<!-- 作品 -->
 		<div class ="row">
 			<div class="mx-auto title">
 			    <h1>WORKS</h1>
 		    </div>
 		</div>
-		<div class="row">
-			<div class="col-lg-4 col-sm-12">
-				<div class="card">
-					<img src="img/works_portfolio.jpg" class="card-item">
-				</div>
+		<ul class="nav nav-tabs tab-style">
+			<li class="nav-item">
+				<a href="#tab-private" class="nav-link active" data-toggle="tab">個人開発</a>
+			</li>
+			<li class="nav-item">
+				<a href="#tab-company" class="nav-link" data-toggle="tab">企業開発</a>
+			</li>
+		</ul>
+		<div class="tab-content">
+			<div id="tab-private" class="tab-pane active">
+				<div class="row">
+					<div class="col-lg-4 col-sm-12">
+						<div class="card">
+							<img src="img/works_portfolio.jpg" class="card-item">
+						</div>
+					</div>
+				</div> 
+			</div>
+			<div id="tab-company" class="tab-pane">
+				<table class="table table-hover">
+					<thead>
+						<tr class="table-info">
+							<th colspan="2">金融機関向け顧客管理機能の開発</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="width:100px">内容</td>
+							<td>金融機関を対象とした、顧客情報の口座情報等の管理を行う</td>
+						</tr>
+						<tr>
+							<td>担当業務</td>
+							<td>顧客の登録情報の検索フォームを作成し、検索結果に基づく動的なテーブルの作成</td>
+						</tr>
+						<tr>
+							<td>役割</td>
+							<td>フロントエンド：30%<br>バックエンド：70%</td>
+						</tr>
+						<tr>
+							<td>開発環境</td>
+							<td>OS：Windows<br>言語：Java、HTML5、CSS3、javascript<br>FW：SpringBoot、Bootstrap3、jQuery<br>DB：MySQL</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
+		<!-- 今後の目標 -->
 		<div class ="row">
 			<div class="mx-auto title">
-			    <h1>FEATURE</h1>
+			    <h1>FUTURE</h1>
 		    </div>
 		</div>
-		<div class ="row feature-detail">
+		<div class ="row future-detail">
 		    <ul>
 		    	<li>興味のある言語
 		    		<ul>
-		    			<li>react</li>
+		    			<li>React</li>
 		    			<li>Kotlin</li>
 		    			<li>Swift</li>
 		    			<li>PHP</li>
