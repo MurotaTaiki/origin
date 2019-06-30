@@ -47,6 +47,10 @@
 }
 
 /*works*/
+.tab-style{
+	margin-bottom: 10px;
+}
+
 .card-item{
 	width:100%;
 	height:auto;
@@ -55,7 +59,7 @@
 /*skill*/
 
 
-/*feature*/
-.feature-detail{
+/*future*/
+.future-detail{
 	font-size: 30px
 }
